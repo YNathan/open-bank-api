@@ -1,5 +1,4 @@
 import * as jwt from "jsonwebtoken";
-
 import { inject, injectable } from "inversify";
 import { Request, Response, NextFunction } from "express";
 import { TYPES } from "../ioc/types";
@@ -123,6 +122,7 @@ export class AuthServiceImpl implements AuthService {
 
       // TODO changng the token or remove it
       const token: string = await this.signToken(user);
+      
       return response.send(user);
     } catch (error) {
       next(new BadRequestError(ErrorCodes.ERROR_UNKNOWN, error.message));
@@ -145,7 +145,7 @@ export class AuthServiceImpl implements AuthService {
     return BcryptSupport.compare(password, userPassword);
   }
 
-  public signToken(user: UserDto) {
+  public signToken(user: UserDto): any {
     return jwt.sign({ user }, this.config.jwtAppSecret, {
       expiresIn: this.config.jwtExpireTime,
     });
@@ -177,7 +177,6 @@ export class AuthServiceImpl implements AuthService {
     }
 
     const hash = await BcryptSupport.generate(newPassword, 16.5);
-    
     const currentUser = (request as any).user as User;
     currentUser.password = hash;
     const updatedUser = await this.authRepository.updateValues(currentUser);

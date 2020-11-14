@@ -3,7 +3,6 @@ import { Request, Response, NextFunction } from "express";
 import { ErrorCodes } from "../exceptions/error-codes";
 import { BadRequestError } from "../exceptions/http-errors/bad-request-error";
 import { TYPES } from "../ioc/types";
-import url from "url";
 import { Customer } from "../models/dto/costumer.dto";
 import { CustomerService } from "./customer.service";
 import { CustomerRepository } from "../repositories/customer.repository";

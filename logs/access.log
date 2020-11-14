@@ -16056,3 +16056,1580 @@
   errorCode: 999,
   message: 'Connection "default" was not found.'
 }
+[2020-11-14T22:37:26.710] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T22:37:26.731] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T22:37:26.735] [INFO] [Bank Customer Api] - [App] routes: 
+  - 
+    controller: UserController
+    endpoints: 
+      - 
+        route: POST /user/register
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /user/
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: CustomerController
+    endpoints: 
+      - 
+        route: POST /customer/create
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/one/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/all
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: DELETE /customer/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /customer/update
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: AuthController
+    endpoints: 
+      - 
+        route: POST /auth/login
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/logout
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/change_password
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+[2020-11-14T22:37:26.736] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T22:40:12.270] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T22:40:12.290] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T22:40:12.294] [INFO] [Bank Customer Api] - [App] routes: 
+  - 
+    controller: UserController
+    endpoints: 
+      - 
+        route: POST /user/register
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /user/
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: CustomerController
+    endpoints: 
+      - 
+        route: POST /customer/create
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/one/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/all
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: DELETE /customer/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /customer/update
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: AuthController
+    endpoints: 
+      - 
+        route: POST /auth/login
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/logout
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/change_password
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+[2020-11-14T22:40:12.294] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T22:40:44.141] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T22:40:44.160] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T22:40:44.164] [INFO] [Bank Customer Api] - [App] routes: 
+  - 
+    controller: UserController
+    endpoints: 
+      - 
+        route: POST /user/register
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /user/
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: CustomerController
+    endpoints: 
+      - 
+        route: POST /customer/create
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/one/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/all
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: DELETE /customer/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /customer/update
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: AuthController
+    endpoints: 
+      - 
+        route: POST /auth/login
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/logout
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/change_password
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+[2020-11-14T22:40:44.164] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T22:41:22.067] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T22:41:22.086] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T22:41:22.090] [INFO] [Bank Customer Api] - [App] routes: 
+  - 
+    controller: UserController
+    endpoints: 
+      - 
+        route: POST /user/register
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /user/
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: CustomerController
+    endpoints: 
+      - 
+        route: POST /customer/create
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/one/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/all
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: DELETE /customer/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /customer/update
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: AuthController
+    endpoints: 
+      - 
+        route: POST /auth/login
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/logout
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/change_password
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+[2020-11-14T22:41:22.090] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T22:41:30.586] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T22:41:30.604] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T22:41:30.608] [INFO] [Bank Customer Api] - [App] routes: 
+  - 
+    controller: UserController
+    endpoints: 
+      - 
+        route: POST /user/register
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /user/
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: CustomerController
+    endpoints: 
+      - 
+        route: POST /customer/create
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/one/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/all
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: DELETE /customer/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /customer/update
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: AuthController
+    endpoints: 
+      - 
+        route: POST /auth/login
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/logout
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/change_password
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+[2020-11-14T22:41:30.608] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T22:41:44.142] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T22:41:44.162] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T22:41:44.166] [INFO] [Bank Customer Api] - [App] routes: 
+  - 
+    controller: UserController
+    endpoints: 
+      - 
+        route: POST /user/register
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /user/
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: CustomerController
+    endpoints: 
+      - 
+        route: POST /customer/create
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/one/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/all
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: DELETE /customer/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /customer/update
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: AuthController
+    endpoints: 
+      - 
+        route: POST /auth/login
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/logout
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/change_password
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+[2020-11-14T22:41:44.166] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T22:42:10.042] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T22:42:10.062] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T22:42:10.066] [INFO] [Bank Customer Api] - [App] routes: 
+  - 
+    controller: UserController
+    endpoints: 
+      - 
+        route: POST /user/register
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /user/
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: CustomerController
+    endpoints: 
+      - 
+        route: POST /customer/create
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/one/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/all
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: DELETE /customer/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /customer/update
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: AuthController
+    endpoints: 
+      - 
+        route: POST /auth/login
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/logout
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/change_password
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+[2020-11-14T22:42:10.066] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T22:42:28.341] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T22:42:28.360] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T22:42:28.364] [INFO] [Bank Customer Api] - [App] routes: 
+  - 
+    controller: UserController
+    endpoints: 
+      - 
+        route: POST /user/register
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /user/
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: CustomerController
+    endpoints: 
+      - 
+        route: POST /customer/create
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/one/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/all
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: DELETE /customer/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /customer/update
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: AuthController
+    endpoints: 
+      - 
+        route: POST /auth/login
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/logout
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/change_password
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+[2020-11-14T22:42:28.364] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T22:45:28.105] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T22:45:28.124] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T22:45:28.128] [INFO] [Bank Customer Api] - [App] routes: 
+  - 
+    controller: UserController
+    endpoints: 
+      - 
+        route: POST /user/register
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /user/
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: CustomerController
+    endpoints: 
+      - 
+        route: POST /customer/create
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/one/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/all
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: DELETE /customer/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /customer/update
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: AuthController
+    endpoints: 
+      - 
+        route: POST /auth/login
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/logout
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/change_password
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+[2020-11-14T22:45:28.128] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T22:46:30.351] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T22:46:30.369] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T22:46:30.373] [INFO] [Bank Customer Api] - [App] routes: 
+  - 
+    controller: UserController
+    endpoints: 
+      - 
+        route: POST /user/register
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /user/
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: CustomerController
+    endpoints: 
+      - 
+        route: POST /customer/create
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/one/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/all
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: DELETE /customer/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /customer/update
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: AuthController
+    endpoints: 
+      - 
+        route: POST /auth/login
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/logout
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/change_password
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+[2020-11-14T22:46:30.373] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T22:46:55.766] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T22:46:55.785] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T22:46:55.789] [INFO] [Bank Customer Api] - [App] routes: 
+  - 
+    controller: UserController
+    endpoints: 
+      - 
+        route: POST /user/register
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /user/
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: CustomerController
+    endpoints: 
+      - 
+        route: POST /customer/create
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/one/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/all
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: DELETE /customer/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /customer/update
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: AuthController
+    endpoints: 
+      - 
+        route: POST /auth/login
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/logout
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/change_password
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+[2020-11-14T22:46:55.789] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T22:47:04.977] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T22:47:04.998] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T22:47:05.001] [INFO] [Bank Customer Api] - [App] routes: 
+  - 
+    controller: UserController
+    endpoints: 
+      - 
+        route: POST /user/register
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /user/
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: CustomerController
+    endpoints: 
+      - 
+        route: POST /customer/create
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/one/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/all
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: DELETE /customer/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /customer/update
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: AuthController
+    endpoints: 
+      - 
+        route: POST /auth/login
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/logout
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/change_password
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+[2020-11-14T22:47:05.002] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T22:47:25.843] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T22:47:25.862] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T22:47:25.865] [INFO] [Bank Customer Api] - [App] routes: 
+  - 
+    controller: UserController
+    endpoints: 
+      - 
+        route: POST /user/register
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /user/
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: CustomerController
+    endpoints: 
+      - 
+        route: POST /customer/create
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/one/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/all
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: DELETE /customer/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /customer/update
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: AuthController
+    endpoints: 
+      - 
+        route: POST /auth/login
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/logout
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/change_password
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+[2020-11-14T22:47:25.866] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T22:47:57.543] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T22:47:57.562] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T22:47:57.567] [INFO] [Bank Customer Api] - [App] [32mroutes: [39m
+  [32m- [39m
+    [32mcontroller: [39mUserController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /user/register
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mGET /user/
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+  [32m- [39m
+    [32mcontroller: [39mCustomerController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /customer/create
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mGET /customer/one/:id
+        [32margs: [39m
+          [32m- [39m@requestParam id
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mGET /customer/all
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mDELETE /customer/:id
+        [32margs: [39m
+          [32m- [39m@requestParam id
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /customer/update
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+  [32m- [39m
+    [32mcontroller: [39mAuthController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /auth/login
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/logout
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/change_password
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+[2020-11-14T22:47:57.567] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T22:48:28.281] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T22:48:28.300] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T22:48:28.302] [INFO] [Bank Customer Api] - [App] [32mroutes: [39m
+  [32m- [39m
+    [32mcontroller: [39mUserController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /user/register
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mGET /user/
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+  [32m- [39m
+    [32mcontroller: [39mCustomerController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /customer/create
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mGET /customer/one/:id
+        [32margs: [39m
+          [32m- [39m@requestParam id
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mGET /customer/all
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mDELETE /customer/:id
+        [32margs: [39m
+          [32m- [39m@requestParam id
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /customer/update
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+  [32m- [39m
+    [32mcontroller: [39mAuthController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /auth/login
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/logout
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/change_password
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+[2020-11-14T22:48:28.303] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T22:48:49.897] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T22:48:49.918] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T22:48:49.920] [INFO] [Bank Customer Api] - [App] [32mroutes: [39m
+  [32m- [39m
+    [32mcontroller: [39mUserController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /user/register
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mGET /user/
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+  [32m- [39m
+    [32mcontroller: [39mCustomerController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /customer/create
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mGET /customer/one/:id
+        [32margs: [39m
+          [32m- [39m@requestParam id
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mGET /customer/all
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mDELETE /customer/:id
+        [32margs: [39m
+          [32m- [39m@requestParam id
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /customer/update
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+  [32m- [39m
+    [32mcontroller: [39mAuthController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /auth/login
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/logout
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/change_password
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+[2020-11-14T22:48:49.921] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T22:49:29.380] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T22:49:29.399] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T22:49:29.402] [INFO] [Bank Customer Api] - [App] [32mroutes: [39m
+  [32m- [39m
+    [32mcontroller: [39mUserController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /user/register
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mGET /user/
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+  [32m- [39m
+    [32mcontroller: [39mCustomerController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /customer/create
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mGET /customer/one/:id
+        [32margs: [39m
+          [32m- [39m@requestParam id
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mGET /customer/all
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mDELETE /customer/:id
+        [32margs: [39m
+          [32m- [39m@requestParam id
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /customer/update
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+  [32m- [39m
+    [32mcontroller: [39mAuthController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /auth/login
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/logout
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/change_password
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+[2020-11-14T22:49:29.402] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T22:50:21.537] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T22:50:21.556] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T22:50:21.559] [INFO] [Bank Customer Api] - [App] [32mroutes: [39m
+  [32m- [39m
+    [32mcontroller: [39mUserController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /user/register
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mGET /user/
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+  [32m- [39m
+    [32mcontroller: [39mCustomerController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /customer/create
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mGET /customer/one/:id
+        [32margs: [39m
+          [32m- [39m@requestParam id
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mGET /customer/all
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mDELETE /customer/:id
+        [32margs: [39m
+          [32m- [39m@requestParam id
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /customer/update
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+  [32m- [39m
+    [32mcontroller: [39mAuthController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /auth/login
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/logout
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/change_password
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+[2020-11-14T22:50:21.559] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T22:51:13.149] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T22:51:13.169] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T22:51:13.172] [INFO] [Bank Customer Api] - [App] [32mroutes: [39m
+  [32m- [39m
+    [32mcontroller: [39mUserController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /user/register
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mGET /user/
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+  [32m- [39m
+    [32mcontroller: [39mCustomerController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /customer/create
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mGET /customer/one/:id
+        [32margs: [39m
+          [32m- [39m@requestParam id
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mGET /customer/all
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mDELETE /customer/:id
+        [32margs: [39m
+          [32m- [39m@requestParam id
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /customer/update
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+  [32m- [39m
+    [32mcontroller: [39mAuthController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /auth/login
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/logout
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/change_password
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+[2020-11-14T22:51:13.172] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000

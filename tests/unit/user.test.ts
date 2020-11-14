@@ -1,12 +1,8 @@
 import { expect } from "chai";
-import { NextFunction, request, Request, response, Response } from "express";
-import { next } from "inversify-express-utils";
+import { NextFunction, Request, Response } from "express";
 import { TYPES } from "../../src/ioc/types";
 import { UserService } from "../../src/service/user.service";
-import { UserRepository } from "../../src/repositories/user.repository";
-import { UserTransformer } from "../../src/transformers/user.transformer";
 import { getTestContainer } from "../utils/bootstrap";
-import { User } from "../../src/models/domain/user.entity";
 
 describe("user - unit", () => {
   const container = getTestContainer();

@@ -11,14 +11,6 @@ export class ErrorCodes {
 
   static ERROR_BAD_CREDENTIALS = 1000;
 
-  static ERROR_HASHING_PASSWORD = 1001;
-
-  static ERROR_CREATING_TOKEN = 1002;
-
-  static ERROR_UNAUTHORIZED = 1003;
-
-  static ERROR_USER_DISABLED = 1004;
-
   static ERROR_BAD_TOKEN = 1005;
 
   static ERROR_DB = 1006;

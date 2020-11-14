@@ -1,6 +1,7 @@
 import { Request, Response, NextFunction } from "express";
 import { UserDto } from "../models/dto/user/user.dto";
 import { TokenUserResponseDto } from "../models/dto/user/token-user-response.dto";
+import { User } from "../models/domain/user.entity";
 
 export interface AuthService {
   authUserRequest(
@@ -15,7 +16,7 @@ export interface AuthService {
     next: NextFunction
   ): Promise<Response<UserDto>>;
 
-  validateUser(email: string): Promise<boolean | UserDto>;
+  validateUser(email: string): Promise<boolean | User>;
 
   validatePassword(password: string, userPassword: string): boolean;
 

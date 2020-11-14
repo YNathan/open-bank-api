@@ -178,3 +178,9 @@ will represent a customer of a bank
 
 ###### **  I Added a swagger 
 you can see it at url `https://localhost:3000/api-docs/swagger`
+
+
+
+
+###### **  Test
+test are partial completed i dident had enough time to complete it but the user and auth are there

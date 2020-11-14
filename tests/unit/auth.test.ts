@@ -3,8 +3,6 @@ import { Request, Response, NextFunction } from "express";
 import { UserService } from "../../src/service/user.service";
 import { TYPES } from "../../src/ioc/types";
 import { AuthService } from "../../src/service/auth.service";
-import { UserRepository } from "../../src/repositories/user.repository";
-
 import { getTestContainer } from "../utils/bootstrap";
 import { UserDto } from "../../src/models/dto/user/user.dto";
 import { config } from "../../src/config/config";
@@ -14,11 +12,7 @@ describe("auth - unit", () => {
 
   let authService: AuthService;
   let userService: UserService;
-  let userRepository: UserRepository;
-  let request: Request;
-  let response: Response;
   let status: number;
-  let next: NextFunction;
   let error: unknown;
 
   function initRequestAndResponse(

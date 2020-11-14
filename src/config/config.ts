@@ -20,7 +20,6 @@ export type Config = {
     jwtAppSecret: string;
     jwtExpireTime: number;
     ssl: boolean;
-    letsEncrypt: boolean;
     sslKeyPath?: string;
     sslCrtPath?: string;
     fakeDbPath?: string;
