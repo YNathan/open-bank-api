@@ -72,13 +72,106 @@ will represent a customer of a bank
 
        curl --location --request GET 'https://localhost:3000/customer/all' \
        --header 'authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiMjYzZWMwMzAtMjY4My0xMWViLTllNzQtOTUyYzFkOTJjZTgwIiwibmFtZSI6ImphY29iIiwiZW1haWwiOiJqYWNvYkBkaXNjb3VudC5jb20ifSwiaWF0IjoxNjA1MzY0NTkyLCJleHAiOjE2MDU5NjkzOTJ9.pnLtiX8wnj6R8gtNO1erx9BAP9m5uzfNFVCOE4PaUak'
- 
- 
  * get one customer
-
-        curl --location --request POST 'https://localhost:3000/auth/change_password' \
+ 
+        curl --location --request GET 'https://localhost:3000/customer/one/Israeli-222210023' \
+        --header 'authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiMjYzZWMwMzAtMjY4My0xMWViLTllNzQtOTUyYzFkOTJjZTgwIiwibmFtZSI6ImphY29iIiwiZW1haWwiOiJqYWNvYkBkaXNjb3VudC5jb20ifSwiaWF0IjoxNjA1MzY0NTkyLCJleHAiOjE2MDU5NjkzOTJ9.pnLtiX8wnj6R8gtNO1erx9BAP9m5uzfNFVCOE4PaUak'
+* create a new customer 
+ 
+        curl --location --request POST 'https://localhost:3000/customer/create' \
         --header 'authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiMjYzZWMwMzAtMjY4My0xMWViLTllNzQtOTUyYzFkOTJjZTgwIiwibmFtZSI6ImphY29iIiwiZW1haWwiOiJqYWNvYkBkaXNjb3VudC5jb20ifSwiaWF0IjoxNjA1MzY0NTkyLCJleHAiOjE2MDU5NjkzOTJ9.pnLtiX8wnj6R8gtNO1erx9BAP9m5uzfNFVCOE4PaUak' \
         --header 'Content-Type: application/json' \
-        --data-raw '{
-          "password":{ "newPassword" : "323234"}
+        --data-raw '
+          {
+        "clientBank": "Discount",
+        "clientID": "AI_JacobFintech-AI_TestFintech_U1",
+        "consentID": "000000341",
+        "customerID": "Yaacov-222210023",
+        "customerPassport": "",
+        "consentTrack": "BankOffered",
+        "consentStatus": "valid",
+        "activationStatus": "Activated",
+        "customerSite": "Retail",
+        "consentReusability": "Recurring",
+        "acceptedDate": "2020-09-30",
+        "confirmationTimestamp": "2020-09-30T11:04:53",
+        "validFrom": "2020-09-30",
+        "validUntil": "2020-12-31",
+        "modificationTimestamp": "2020-09-30T11:04:03",
+        "cancellationTimestamp": "0001-01-01T00:00:00",
+        "cancellationReason": "",
+        "cancellationInitiator": "",
+        "frequencyPerDay": 1,
+        "accountPermissions": [
+          {
+            "scope": "balances",
+            "accountNumberIBAN": "IL540110920000153498542",
+            "openingBranch": "0002",
+            "accountNumber": "0153498732",
+            "productCode": "CACC",
+            "currencyCode": "",
+            "accountStatus": "Active",
+            "managingBranch": "0092"
+          },
+          {
+            "scope": "transactions",
+            "accountNumberIBAN": "IL54011092000015542732",
+            "openingBranch": "0092",
+            "accountNumber": "0153498732",
+            "productCode": "CACC",
+            "currencyCode": "",
+            "accountStatus": "Terminated",
+            "managingBranch": "0092"
+          }
+        ] }
+        '
+
+
+* update customer accountPermission.permissionStatus  
+
+       curl --location --request POST 'https://localhost:3000/customer/update' \
+       --header 'authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiMjYzZWMwMzAtMjY4My0xMWViLTllNzQtOTUyYzFkOTJjZTgwIiwibmFtZSI6ImphY29iIiwiZW1haWwiOiJqYWNvYkBkaXNjb3VudC5jb20ifSwiaWF0IjoxNjA1MzY0NTkyLCJleHAiOjE2MDU5NjkzOTJ9.pnLtiX8wnj6R8gtNO1erx9BAP9m5uzfNFVCOE4PaUak' \
+       --header 'Content-Type: application/json' \
+       --data-raw '
+        {
+            "clientBank": "Discount",
+            "clientID": "updated_client_id_Fintech_U1",
+            "consentID": "000000341",
+            "customerID": "Yaacov-222210023",
+            "customerPassport": "",
+            "consentTrack": "BankOffered",
+            "consentStatus": "valid",
+            "activationStatus": "Activated",
+            "customerSite": "Retail",
+            "consentReusability": "Recurring",
+            "acceptedDate": "2020-09-30",
+            "confirmationTimestamp": "2020-09-30T11:04:53",
+            "validFrom": "2020-09-30",
+            "validUntil": "2020-12-31",
+            "modificationTimestamp": "2020-09-30T11:04:03",
+            "cancellationTimestamp": "0001-01-01T00:00:00",
+            "cancellationReason": "",
+            "cancellationInitiator": "",
+            "frequencyPerDay": 1,
+            "accountPermissions": [
+                {
+                  "scope": "balances",
+                  "accountNumberIBAN": "IL540110920000153498542",
+                  "openingBranch": "63656653554156",
+                  "accountNumber": "0153498732",
+                  "productCode": "CACC",
+                  "currencyCode": "",
+                  "accountStatus": "Active",
+                  "managingBranch": "0092"
+                }]
         }
+       '
+
+
+* delete customer 
+ 
+        curl --location --request DELETE 'https://localhost:3000/customer/Yaacov-222210023' \
+        --header 'authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiMjYzZWMwMzAtMjY4My0xMWViLTllNzQtOTUyYzFkOTJjZTgwIiwibmFtZSI6ImphY29iIiwiZW1haWwiOiJqYWNvYkBkaXNjb3VudC5jb20ifSwiaWF0IjoxNjA1MzY0NTkyLCJleHAiOjE2MDU5NjkzOTJ9.pnLtiX8wnj6R8gtNO1erx9BAP9m5uzfNFVCOE4PaUak'
+
+###### **  I Added a swagger 
+you can see it at url `https://localhost:3000/api-docs/swagger`
