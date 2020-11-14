@@ -4,7 +4,6 @@ import { inject, injectable } from "inversify";
 import { Request, Response, NextFunction } from "express";
 import { TYPES } from "../ioc/types";
 import { logger } from "../logger/logger";
-import { IUser } from "../models/domain/user";
 import { User } from "../models/domain/user.entity";
 import { UserDto } from "../models/dto/user/user.dto";
 import { BcryptSupport } from "../support/bcrypt.support";
@@ -130,8 +129,8 @@ export class AuthServiceImpl implements AuthService {
     }
   }
 
-  public async validateUser(email: string): Promise<boolean | IUser> {
-    const user: IUser = await this.authRepository.findByEmail(email);
+  public async validateUser(email: string): Promise<boolean | User> {
+    const user: User = await this.authRepository.findByEmail(email);
     try {
       if (!user) {
         return false;

@@ -1,6 +1,5 @@
 import { inject, injectable } from "inversify";
 import { Request, Response, NextFunction } from "express";
-import { IUser } from "../models/domain/user";
 import { UserDto } from "../models/dto/user/user.dto";
 import { UserRepository } from "../repositories/user.repository";
 import { ErrorCodes } from "../exceptions/error-codes";
@@ -24,9 +23,9 @@ export class UserServiceImpl implements UserService {
 
   public async registerUserRequest(
     request: Request,
-    response: Response<IUser>,
+    response: Response<UserDto>,
     next: NextFunction
-  ): Promise<Response<IUser>> {
+  ): Promise<Response<UserDto>> {
     const { name } = request.body;
     const { email } = request.body;
     const { password } = request.body;
