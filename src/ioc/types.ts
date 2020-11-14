@@ -1,0 +1,20 @@
+export const TYPES = {
+  Config: Symbol.for("Config"),
+  EventEmitter: Symbol.for("EventEmitter"),
+  EventHandler: Symbol.for("EventHandler"),
+  LoggerMiddleware: Symbol.for("LoggerMiddleware"),
+  UserRegisterMiddleware: Symbol.for("UserRegisterMiddleware"),
+  CustomerCreateMiddleware: Symbol.for("CustomerCreateMiddleware"),
+  GuardMiddleware: Symbol.for("GuardMiddleware"),
+  UserService: Symbol.for("UserService"),
+  AuthService: Symbol.for("AuthService"),
+  UserDao: Symbol.for("UserDao"),
+  AuthProvider: Symbol.for("AuthProvider"),
+  UserProvider: Symbol.for("UserProvider"),
+  UserRepository: Symbol.for("UserRepository"),
+  CustomerRepository: Symbol.for("CustomerRepository"),
+  AuthController: Symbol.for("AuthController"),
+  CustomerService: Symbol.for("CustomerService"),
+  DbManagerService: Symbol.for("DbManagerService"),
+
+};

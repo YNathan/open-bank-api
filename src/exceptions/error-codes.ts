@@ -1,0 +1,31 @@
+export class ErrorCodes {
+  static STATUS_OK = 200;
+
+  static STATUS_INTERNAL_SERVER_ERROR = 500;
+
+  static STATUS_BAD_REQUEST = 400;
+
+  static STATUS_UNAUTHORIZED = 401;
+
+  static ERROR_UNKNOWN = 999;
+
+  static ERROR_BAD_CREDENTIALS = 1000;
+
+  static ERROR_HASHING_PASSWORD = 1001;
+
+  static ERROR_CREATING_TOKEN = 1002;
+
+  static ERROR_UNAUTHORIZED = 1003;
+
+  static ERROR_USER_DISABLED = 1004;
+
+  static ERROR_BAD_TOKEN = 1005;
+
+  static ERROR_DB = 1006;
+
+  static ERROR_MISSING_PARAMETERS = 1007;
+
+  static ERROR_MISSING_HEADERS = 1008;
+
+  static ERROR_NOT_FOUND = 1009;
+}

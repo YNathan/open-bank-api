@@ -1,0 +1,319 @@
+[2020-11-13T18:28:11.485] [INFO] default - [App] [32mroutes: [39m
+  [32m- [39m
+    [32mcontroller: [39mAuthController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /auth/login
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/logout
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/changePassword
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/isValidToken
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+[2020-11-13T18:28:11.486] [INFO] default - [App] server is running! listening to port 3000
+[2020-11-13T18:28:25.707] [INFO] default - [App] [32mroutes: [39m
+  [32m- [39m
+    [32mcontroller: [39mAuthController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /auth/login
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/logout
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/changePassword
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/isValidToken
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+[2020-11-13T18:28:25.708] [INFO] default - [App] server is running! listening to port 3000
+[2020-11-13T18:46:59.149] [DEBUG] [bank customer API] - [App] Server spinning up!
+[2020-11-13T18:46:59.159] [INFO] [bank customer API] - [App] [32mroutes: [39m
+  [32m- [39m
+    [32mcontroller: [39mAuthController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /auth/login
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/logout
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/change_password
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+[2020-11-13T18:46:59.160] [INFO] [bank customer API] - [App] server is running! listening to port 3000
+[2020-11-13T18:57:46.918] [DEBUG] [bank customer API] - [App] Server spinning up!
+[2020-11-13T18:57:46.928] [INFO] [bank customer API] - [App] [32mroutes: [39m
+  [32m- [39m
+    [32mcontroller: [39mAuthController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /auth/login
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/logout
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/change_password
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+[2020-11-13T18:57:46.929] [INFO] [bank customer API] - [App] server is running! listening to port 3000
+[2020-11-13T18:59:49.785] [DEBUG] [bank customer API] - [App] Server spinning up!
+[2020-11-13T18:59:49.795] [INFO] [bank customer API] - [App] [32mroutes: [39m
+  [32m- [39m
+    [32mcontroller: [39mAuthController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /auth/login
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/logout
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/change_password
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+[2020-11-13T18:59:49.795] [INFO] [bank customer API] - [App] server is running! listening to port 3000
+[2020-11-13T19:00:29.789] [DEBUG] [bank customer API] - [App] Server spinning up!
+[2020-11-13T19:00:29.801] [INFO] [bank customer API] - [App] [32mroutes: [39m
+  [32m- [39m
+    [32mcontroller: [39mAuthController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /auth/login
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/logout
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/change_password
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+[2020-11-13T19:00:29.802] [INFO] [bank customer API] - [App] server is running! listening to port 3000
+[2020-11-13T19:08:11.106] [DEBUG] [bank customer API] - [App] Server spinning up!
+[2020-11-13T19:08:11.115] [INFO] [bank customer API] - [App] [32mroutes: [39m
+  [32m- [39m
+    [32mcontroller: [39mAuthController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /auth/login
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/logout
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/change_password
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+[2020-11-13T19:08:11.116] [INFO] [bank customer API] - [App] server is running! listening to port 3000
+[2020-11-13T19:09:23.530] [DEBUG] [bank customer API] - [App] Server spinning up!
+[2020-11-13T19:09:23.539] [INFO] [bank customer API] - [App] routes: 
+  - 
+    controller: AuthController
+    endpoints: 
+      - 
+        route: POST /auth/login
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/logout
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/change_password
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+[2020-11-13T19:09:23.540] [INFO] [bank customer API] - [App] server is running! listening to port 3000
+[2020-11-13T19:09:30.432] [DEBUG] [bank customer API] - [App] Server spinning up!
+[2020-11-13T19:10:34.841] [INFO] [bank customer API] - [App] routes: 
+  - 
+    controller: AuthController
+    endpoints: 
+      - 
+        route: POST /auth/login
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/logout
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/change_password
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+[2020-11-13T19:10:38.345] [INFO] [bank customer API] - [App] server is running! listening to port 3000
+[2020-11-13T19:11:53.632] [DEBUG] [bank customer API] - [App] Server spinning up!
+[2020-11-13T19:11:53.641] [INFO] [bank customer API] - [App] routes: 
+  - 
+    controller: AuthController
+    endpoints: 
+      - 
+        route: POST /auth/login
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/logout
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/change_password
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+[2020-11-13T19:11:53.642] [INFO] [bank customer API] - [App] server is running! listening to port 3000
+[2020-11-13T19:13:00.425] [INFO] [bank customer API] - [App] [32mroutes: [39m
+  [32m- [39m
+    [32mcontroller: [39mAuthController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /auth/login
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/logout
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/change_password
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+[2020-11-13T19:13:00.426] [INFO] [bank customer API] - [App] server is running! listening to port 3000
+[2020-11-13T19:16:49.875] [INFO] [bank customer API] - [App] [32mroutes: [39m
+  [32m- [39m
+    [32mcontroller: [39mAuthController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /auth/login
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/logout
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/change_password
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+[2020-11-13T19:16:49.876] [INFO] [bank customer API] - [App] server is running! listening to port 3000
+[2020-11-13T19:17:49.137] [INFO] [bank customer API] - [App] [32mroutes: [39m
+  [32m- [39m
+    [32mcontroller: [39mAuthController
+    [32mendpoints: [39m
+      [32m- [39m
+        [32mroute: [39mPOST /auth/login
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/logout
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+      [32m- [39m
+        [32mroute: [39mPOST /auth/change_password
+        [32margs: [39m
+          [32m- [39m@request undefined
+          [32m- [39m@response undefined
+          [32m- [39m@next undefined
+[2020-11-13T19:17:49.138] [INFO] [bank customer API] - [App] server is running! listening to port 3000

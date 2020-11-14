@@ -1,0 +1,173 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "clientBank": {
+          "type": "string"
+        },
+        "clientID": {
+          "type": "string"
+        },
+        "consentID": {
+          "type": "string"
+        },
+        "customerID": {
+          "type": "string"
+        },
+        "customerPassport": {
+          "type": "string"
+        },
+        "consentTrack": {
+          "type": "string"
+        },
+        "consentStatus": {
+          "type": "string"
+        },
+        "activationStatus": {
+          "type": "string"
+        },
+        "customerSite": {
+          "type": "string"
+        },
+        "consentReusability": {
+          "type": "string"
+        },
+        "acceptedDate": {
+          "type": "string"
+        },
+        "confirmationTimestamp": {
+          "type": "string"
+        },
+        "validFrom": {
+          "type": "string"
+        },
+        "validUntil": {
+          "type": "string"
+        },
+        "modificationTimestamp": {
+          "type": "string"
+        },
+        "cancellationTimestamp": {
+          "type": "string"
+        },
+        "cancellationReason": {
+          "type": "string"
+        },
+        "cancellationInitiator": {
+          "type": "string"
+        },
+        "frequencyPerDay": {
+          "type": "integer"
+        },
+        "accountPermissions": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "scope": {
+                  "type": "string"
+                },
+                "accountNumberIBAN": {
+                  "type": "string"
+                },
+                "openingBranch": {
+                  "type": "string"
+                },
+                "accountNumber": {
+                  "type": "string"
+                },
+                "productCode": {
+                  "type": "string"
+                },
+                "currencyCode": {
+                  "type": "string"
+                },
+                "accountStatus": {
+                  "type": "string"
+                },
+                "managingBranch": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "scope",
+                "accountNumberIBAN",
+                "openingBranch",
+                "accountNumber",
+                "productCode",
+                "currencyCode",
+                "accountStatus",
+                "managingBranch"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "scope": {
+                  "type": "string"
+                },
+                "accountNumberIBAN": {
+                  "type": "string"
+                },
+                "openingBranch": {
+                  "type": "string"
+                },
+                "accountNumber": {
+                  "type": "string"
+                },
+                "productCode": {
+                  "type": "string"
+                },
+                "currencyCode": {
+                  "type": "string"
+                },
+                "accountStatus": {
+                  "type": "string"
+                },
+                "managingBranch": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "scope",
+                "accountNumberIBAN",
+                "openingBranch",
+                "accountNumber",
+                "productCode",
+                "currencyCode",
+                "accountStatus",
+                "managingBranch"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "clientBank",
+        "clientID",
+        "consentID",
+        "customerID",
+        "customerPassport",
+        "consentTrack",
+        "consentStatus",
+        "activationStatus",
+        "customerSite",
+        "consentReusability",
+        "acceptedDate",
+        "confirmationTimestamp",
+        "validFrom",
+        "validUntil",
+        "modificationTimestamp",
+        "cancellationTimestamp",
+        "cancellationReason",
+        "cancellationInitiator",
+        "frequencyPerDay",
+        "accountPermissions"
+      ]
+    }
+  ]
+}
