@@ -41,13 +41,13 @@ container.load(buildProviderModule());
 const decObject = getDecorators(container, false);
 const { lazyInject } = decObject;
 
-const provideNamed = (identifier, name) =>
-  // eslint-disable-next-line implicit-arrow-linebreak
+const provideNamed = (identifier: any, name: string): any =>
+  
   fluentProvide(identifier).whenTargetNamed(name).done();
 
 
-const provideSingleton = (identifier: any) =>
-  // eslint-disable-next-line implicit-arrow-linebreak
+const provideSingleton = (identifier: any): any =>
+  
   fluentProvide(identifier).inSingletonScope().done();
 
 const loadContainer = (isProductionMode = false): Container => {
