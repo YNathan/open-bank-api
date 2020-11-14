@@ -7,6 +7,18 @@
 * put the token as value in the headers at authorization key
 * start manipulate customer data
 
+### FlowChart
+```flow
+st=>start: Login
+op=>operation: Login operation
+cond=>condition: Successful Yes or No?
+e=>end: generate the auth key tu future use in header
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+
 #### Technologies
 * 'inversify' for the api
 * typeorm for the entity
