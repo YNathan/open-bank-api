@@ -1,3 +1,4 @@
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 ** first create a user
 ** second login
 ** on login success you recive a token 
@@ -5,3 +6,6 @@
 ** start manipulate customer data
 
 
+i use inversify for the apy
+typeorm for the entity
+db is as json

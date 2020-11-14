@@ -15909,3 +15909,86 @@
           [32m- [39m@response undefined
           [32m- [39m@next undefined
 [2020-11-14T20:56:14.845] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T21:17:43.039] [DEBUG] [Bank Customer Api] - [App] Server spinning up!
+[2020-11-14T21:17:43.093] [DEBUG] [Bank Customer Api] - [
+  { controller: 'UserController', endpoints: [ [Object], [Object] ] },
+  {
+    controller: 'CustomerController',
+    endpoints: [ [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    controller: 'AuthController',
+    endpoints: [ [Object], [Object], [Object] ]
+  }
+]
+[2020-11-14T21:17:43.097] [INFO] [Bank Customer Api] - [App] routes: 
+  - 
+    controller: UserController
+    endpoints: 
+      - 
+        route: POST /user/register
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /user/
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: CustomerController
+    endpoints: 
+      - 
+        route: POST /customer/create
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/one/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: GET /customer/all
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: DELETE /customer/:id
+        args: 
+          - @requestParam id
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /customer/update
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+  - 
+    controller: AuthController
+    endpoints: 
+      - 
+        route: POST /auth/login
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/logout
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+      - 
+        route: POST /auth/change_password
+        args: 
+          - @request undefined
+          - @response undefined
+          - @next undefined
+[2020-11-14T21:17:43.097] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
