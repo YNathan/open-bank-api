@@ -15992,3 +15992,67 @@
           - @response undefined
           - @next undefined
 [2020-11-14T21:17:43.097] [DEBUG] [Bank Customer Api] - [App] server is running! listening to port 3000
+[2020-11-14T21:35:13.123] [INFO] default - [LoggerMiddleware] request: 
+  method:      POST
+  originalUrl: /user/register
+  body: 
+    email:    jacob@discount.com
+    password: 123!
+    name:     jacob undefined
+[2020-11-14T21:49:06.063] [ERROR] default - [ErrorHandler] Http Error occurred.
+ TypeError: Cannot destructure property 'newPassword' of 'request.body.password' as it is undefined.
+    at AuthServiceImpl.<anonymous> (/home/jacob/.vxcode/.config/.ws/disTest/dist/service/auth.service-impl.js:140:21)
+    at Generator.next (<anonymous>)
+    at /home/jacob/.vxcode/.config/.ws/disTest/dist/service/auth.service-impl.js:39:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/jacob/.vxcode/.config/.ws/disTest/dist/service/auth.service-impl.js:35:12)
+    at AuthServiceImpl.changePassword (/home/jacob/.vxcode/.config/.ws/disTest/dist/service/auth.service-impl.js:139:16)
+    at AuthController.changePassword (/home/jacob/.vxcode/.config/.ws/disTest/dist/controllers/auth.controller.js:28:33)
+    at InversifyExpressServer.<anonymous> (/home/jacob/.vxcode/.config/.ws/disTest/node_modules/inversify-express-utils/lib/server.js:226:134)
+    at step (/home/jacob/.vxcode/.config/.ws/disTest/node_modules/inversify-express-utils/lib/server.js:32:23)
+    at Object.next (/home/jacob/.vxcode/.config/.ws/disTest/node_modules/inversify-express-utils/lib/server.js:13:53)
+[2020-11-14T21:49:06.064] [ERROR] default - [ErrorHandler] Server Error occurred.
+ BadRequestError {
+  name: 'BadRequestError',
+  statusCode: 400,
+  errorCode: 999,
+  message: "Cannot destructure property 'newPassword' of 'request.body.password' as it is undefined."
+}
+[2020-11-14T21:51:15.757] [ERROR] default - [ErrorHandler] Http Error occurred.
+ Error: data must be a string and salt must either be a salt string or a number of rounds
+    at Object.hash (/home/jacob/.vxcode/.config/.ws/disTest/node_modules/bcrypt/bcrypt.js:144:17)
+    at /home/jacob/.vxcode/.config/.ws/disTest/node_modules/bcrypt/promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (/home/jacob/.vxcode/.config/.ws/disTest/node_modules/bcrypt/promises.js:20:12)
+    at Object.hash (/home/jacob/.vxcode/.config/.ws/disTest/node_modules/bcrypt/bcrypt.js:133:25)
+    at Function.generate (/home/jacob/.vxcode/.config/.ws/disTest/dist/support/bcrypt.support.js:26:23)
+    at AuthServiceImpl.<anonymous> (/home/jacob/.vxcode/.config/.ws/disTest/dist/service/auth.service-impl.js:144:63)
+    at Generator.next (<anonymous>)
+    at /home/jacob/.vxcode/.config/.ws/disTest/dist/service/auth.service-impl.js:39:71
+    at new Promise (<anonymous>)
+[2020-11-14T21:51:15.757] [ERROR] default - [ErrorHandler] Server Error occurred.
+ BadRequestError {
+  name: 'BadRequestError',
+  statusCode: 400,
+  errorCode: 999,
+  message: 'data must be a string and salt must either be a salt string or a number of rounds'
+}
+[2020-11-14T21:51:25.244] [ERROR] default - [ErrorHandler] Http Error occurred.
+ ConnectionNotFoundError: Connection "default" was not found.
+    at new ConnectionNotFoundError (/home/jacob/.vxcode/.config/.ws/disTest/node_modules/typeorm/error/ConnectionNotFoundError.js:10:28)
+    at ConnectionManager.get (/home/jacob/.vxcode/.config/.ws/disTest/node_modules/typeorm/connection/ConnectionManager.js:38:19)
+    at Object.getManager (/home/jacob/.vxcode/.config/.ws/disTest/node_modules/typeorm/index.js:241:35)
+    at UserRepositoryImpl.<anonymous> (/home/jacob/.vxcode/.config/.ws/disTest/dist/repositories/user.repository-impl.js:60:83)
+    at Generator.next (<anonymous>)
+    at /home/jacob/.vxcode/.config/.ws/disTest/dist/repositories/user.repository-impl.js:20:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/jacob/.vxcode/.config/.ws/disTest/dist/repositories/user.repository-impl.js:16:12)
+    at UserRepositoryImpl.updateValues (/home/jacob/.vxcode/.config/.ws/disTest/dist/repositories/user.repository-impl.js:59:16)
+    at AuthServiceImpl.<anonymous> (/home/jacob/.vxcode/.config/.ws/disTest/dist/service/auth.service-impl.js:147:59)
+[2020-11-14T21:51:25.245] [ERROR] default - [ErrorHandler] Server Error occurred.
+ BadRequestError {
+  name: 'BadRequestError',
+  statusCode: 400,
+  errorCode: 999,
+  message: 'Connection "default" was not found.'
+}
