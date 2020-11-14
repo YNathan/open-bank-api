@@ -1,4 +1,4 @@
-import { ApiModel, ApiModelProperty, IApiModelArgs } from "swagger-express-ts";
+import { ApiModel, ApiModelProperty } from "swagger-express-ts";
 
 @ApiModel({
   description: "Data Transfer Object representing the user",

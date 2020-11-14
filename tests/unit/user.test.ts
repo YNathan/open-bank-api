@@ -4,7 +4,6 @@ import { next } from "inversify-express-utils";
 import { TYPES } from "../../src/ioc/types";
 import { UserService } from "../../src/service/user.service";
 import { UserRepository } from "../../src/repositories/user.repository";
-import { UserRepositoryMock } from "../../src/repositories/user.repository-mock";
 import { UserTransformer } from "../../src/transformers/user.transformer";
 import { getTestContainer } from "../utils/bootstrap";
 import { User } from "../../src/models/domain/user.entity";
@@ -17,7 +16,7 @@ describe("user - unit", () => {
   let status: number;
 
   function initRequestAndResponse(
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    
     request_: any
   ): { request: Request; response: Response; next: NextFunction } {
     // eslint-disable-next-line @typescript-eslint/no-shadow
@@ -28,17 +27,17 @@ describe("user - unit", () => {
     let next: NextFunction;
     (request as unknown) = request_;
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    
     (response as any) = {};
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    
     (response as any).status = (status_: number) => {
       status = status_;
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      
       (response as any).send = (result: any) => result;
       return response;
     };
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    
     (response as any).send = (result: any) => result;
 
     // eslint-disable-next-line prefer-const
@@ -68,7 +67,7 @@ describe("user - unit", () => {
       next
     );
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    
     expect((result as any).name).equals("test1");
   });
 
@@ -84,7 +83,7 @@ describe("user - unit", () => {
 
     const result = await userService.getUser(request, response, next);
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    
     expect((result as any).name).equals("test1");
   });
 });

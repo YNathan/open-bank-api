@@ -178,7 +178,7 @@ export class AuthServiceImpl implements AuthService {
     }
 
     const hash = await BcryptSupport.generate(newPassword, 16.5);
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    
     const currentUser = (request as any).user as User;
     currentUser.password = hash;
     const updatedUser = await this.authRepository.updateValues(currentUser);

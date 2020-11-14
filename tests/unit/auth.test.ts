@@ -22,7 +22,7 @@ describe("auth - unit", () => {
   let error: unknown;
 
   function initRequestAndResponse(
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    
     request_: any
   ): { request: Request; response: Response; next: NextFunction } {
     // eslint-disable-next-line @typescript-eslint/no-shadow
@@ -33,16 +33,16 @@ describe("auth - unit", () => {
     let next: NextFunction;
     (request as unknown) = request_;
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    
     (response as any) = {};
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    
     (response as any).status = (status_: number) => {
       status = status_;
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      
       (response as any).send = (result: any) => result;
       return response;
     };
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    
     (response as any).send = (result: any) => result;
 
     // eslint-disable-next-line prefer-const
@@ -81,7 +81,7 @@ describe("auth - unit", () => {
     };
     const result = await authService.authUserRequest(request, response, next);
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    
     expect((result as any).user.name).equals("test1");
   });
 
@@ -102,7 +102,7 @@ describe("auth - unit", () => {
     await userService.registerUserRequest(request, response, next);
     const result = await authService.validateUser("test1@gmail.com");
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    
     expect((result as any).name).equals("test1");
   });
 
@@ -130,7 +130,7 @@ describe("auth - unit", () => {
       token,
       config.jwtAppSecret
     );
-    // // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    // 
     expect((mathcObject as any).user.name).equals("test1");
   });
 });

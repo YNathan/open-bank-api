@@ -10,9 +10,9 @@ export class LoggerMiddleware extends BaseMiddleware {
 
   public handler(
     request: express.Request,
-    result: express.Response,
+    _result: express.Response,
     next: express.NextFunction
-  ) {
+  ): void {
     logger.info(
       this.TAG,
       prettyjson.render({

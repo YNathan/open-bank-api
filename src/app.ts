@@ -72,6 +72,7 @@ try {
     });
 } catch (error) {
     logger.error("Express server 'listen' failed.", error);
+    console.log(error);
     process.exit();
 }
 

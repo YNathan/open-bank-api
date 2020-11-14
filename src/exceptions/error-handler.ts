@@ -8,9 +8,8 @@ export class ErrorHandler {
   private TAG = `[${ErrorHandler.name}]`;
 
   handleError(
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     error: any,
-    request: Request,
+    _request: Request,
     response: Response,
     next: NextFunction
   ) {

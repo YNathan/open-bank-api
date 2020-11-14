@@ -1,10 +1,11 @@
 import {inject, injectable} from "inversify";
 import {DbManagerService} from "./db.manager.service";
 import * as path from 'path';
-import {existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync} from "fs";
+import {existsSync, readdirSync, readFileSync, writeFileSync} from "fs";
 import {TYPES} from "../ioc/types";
 import {Config} from "../config/config";
-import {mkdir} from "shelljs";
+import { mkdir } from "shelljs";
+
 interface IFileObj {
     name: string;
     content: any;
@@ -61,7 +62,11 @@ export class DbManagerServiceImpl implements DbManagerService {
     }
 
     getEntityById<T>(tableName: string, id: string): Promise<T> {
-        return Promise.resolve(this.fakeDb[tableName][id] as T);
+        let returnedObj: T = undefined;
+        if (this.fakeDb[tableName]) { 
+            returnedObj = this.fakeDb[tableName][id] as T;
+        }
+        return Promise.resolve(returnedObj);
     }
 
     deleteById(tableName: string, id: string): Promise<boolean> {

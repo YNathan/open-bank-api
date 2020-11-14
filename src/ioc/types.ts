@@ -5,6 +5,7 @@ export const TYPES = {
   LoggerMiddleware: Symbol.for("LoggerMiddleware"),
   UserRegisterMiddleware: Symbol.for("UserRegisterMiddleware"),
   CustomerCreateMiddleware: Symbol.for("CustomerCreateMiddleware"),
+  CustomerUpdateMiddleware: Symbol.for("CustomerUpdateMiddleware"),
   GuardMiddleware: Symbol.for("GuardMiddleware"),
   UserService: Symbol.for("UserService"),
   AuthService: Symbol.for("AuthService"),

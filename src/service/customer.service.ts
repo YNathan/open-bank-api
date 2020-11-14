@@ -2,7 +2,6 @@ import { Request, Response, NextFunction } from "express";
 import { Customer } from "../models/dto/costumer.dto";
 
 export interface CustomerService {
-
   getAllCustomer(
     request: Request,
     response: Response,
@@ -10,7 +9,7 @@ export interface CustomerService {
   ): Promise<Response<Customer[]>>;
 
   getOneCustomer(
-    request: Request,
+    id: string,
     response: Response,
     next: NextFunction
   ): Promise<Response<Customer>>;
@@ -27,9 +26,14 @@ export interface CustomerService {
     next: NextFunction
   ): Promise<Response<Customer>>;
 
- 
-  deleteCustomer(
+  update(
     request: Request,
+    response: Response,
+    next: NextFunction):
+  Promise<Response<Customer>>; 
+
+  deleteCustomer(
+    id: string,
     response: Response,
     next: NextFunction
   ): Promise<Response<boolean>>;

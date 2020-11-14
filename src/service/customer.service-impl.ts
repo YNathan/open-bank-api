@@ -18,14 +18,10 @@ export class CustomerServiceImpl implements CustomerService {
   ) {}
 
   public async getOneCustomer(
-    request: Request,
+    id: string,
     response: Response<Customer>
   ): Promise<Response<Customer>> {
-    const requestedCustomerId = url.parse(request.url, true).query.id as string;
-
-    const requestedCustomer = await this.customerRepository.getById(
-      requestedCustomerId
-    );
+    const requestedCustomer = await this.customerRepository.getById(id);
 
     return response.send(requestedCustomer);
   }
@@ -51,15 +47,12 @@ export class CustomerServiceImpl implements CustomerService {
   }
 
   public async deleteCustomer(
-    request: Request,
+    id: string,
     response: Response<boolean>,
     next: NextFunction
   ): Promise<Response<boolean>> {
     try {
-      const id = request.params.id;
-      const user = await this.customerRepository.getById(
-        (request.body as Customer).customerID
-      );
+      const user = await this.customerRepository.getById(id);
       let isExistAndDeleted = false;
       if (user) {
         isExistAndDeleted = await this.customerRepository.delete(id);
@@ -93,6 +86,41 @@ export class CustomerServiceImpl implements CustomerService {
         request.body
       );
       return response.status(200).send(updatedCustomer);
+    } catch (error) {
+      next(new BadRequestError(ErrorCodes.ERROR_UNKNOWN, error.message));
+    }
+  }
+
+  public async update(
+    request: Request,
+    response: Response<Customer>,
+    next: NextFunction
+  ): Promise<Response<Customer>> {
+    try {
+      const updatedCustomer = await this.customerRepository.updateValues(
+        request.body
+      );
+      return response.status(200).send(updatedCustomer);
+    } catch (error) {
+      next(new BadRequestError(ErrorCodes.ERROR_UNKNOWN, error.message));
+    }
+  }
+
+  public async updateCustomer(
+    request: Request,
+    response: Response<Customer>,
+    next: NextFunction
+  ): Promise<Response<Customer>> {
+    try {
+      const customerToUpdate = await this.customerRepository.getById(
+        (request.body as Customer).customerID
+      );
+      if (customerToUpdate) {
+        const updatedCustomer = await this.customerRepository.updateValues(
+          request.body
+        );
+        return response.status(200).send(updatedCustomer);
+      }
     } catch (error) {
       next(new BadRequestError(ErrorCodes.ERROR_UNKNOWN, error.message));
     }

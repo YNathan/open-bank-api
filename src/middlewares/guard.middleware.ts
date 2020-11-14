@@ -35,9 +35,9 @@ export class GuardMiddleware extends BaseMiddleware {
         token,
         this.config.jwtAppSecret
       );
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      
       (request as any).user = decodedToken.user;
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      
       (request as any).token = decodedToken;
       next();
     } catch {
